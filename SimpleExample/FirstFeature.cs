@@ -6,4 +6,9 @@ public static class Greetings
     {
         Console.WriteLine("Hello, World!");
     }
+
+    public static void SayHelloTo(string name)
+    {
+        Console.WriteLine($"Hello, {name}!");
+    }
 }
