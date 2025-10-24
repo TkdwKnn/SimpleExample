@@ -1,0 +1,8 @@
+@echo off
+set /p filename="Введите имя файла: "
+:loop
+if "%~1"=="" goto end
+if exist "%~1\%filename%" echo Найден: %~1\%filename%
+shift
+goto loop
+:end
